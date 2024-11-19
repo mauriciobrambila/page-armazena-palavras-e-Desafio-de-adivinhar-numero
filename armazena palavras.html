@@ -1,0 +1,19 @@
+<script LANGUAGE="JavaScript">
+
+//definindo vetor 
+var V = [];
+for(i=0; i<6; i++){
+      //recebe palavra
+      var palavra = prompt("Digite uma palavra:");
+     //loop para verificar se existe uma palavra igual
+     for(j=0; j<i; j++){
+         if(palavra == V[j]){
+             //solicita outra palavra
+            palavra = prompt("Esta palavra ja foi digitada, digite outra palavra"); 
+         }
+      }
+      
+      V[i] = palavra; //guarda palavra na posição i do vetor
+ }
+ 
+ </script>
